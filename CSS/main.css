@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+}
+
+.image-box img, canvas{
+    max-width: 45vw;
+    max-height: 60vh;
+}
+
+.upload label{
+    border: 2px dashed #fff;
+    color: #fff;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.btns a, span {
+    padding: 10px 20px;
+    background-color: #060;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 650px){
+    .image-box img,canvas{
+        max-width: 80vw;
+    }
+}
